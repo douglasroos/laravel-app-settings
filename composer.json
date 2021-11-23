@@ -1,7 +1,7 @@
 {
   "name": "douglasroos/laravel-app-settings",
   "description": "A package with UI to store and manage all the settings for your application",
-  "homepage": "https://github.com/qcod/laravel-app-settings",
+  "homepage": "https://github.com/douglasroos/laravel-app-settings",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -23,7 +23,7 @@
   "require": {
     "php": "^7.2|^8.0",
     "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
-    "douglasroos/laravel-settings": "^1.0.11"
+    "douglasroos/laravel-settings": "dev-master"
   },
   "require-dev": {
     "orchestra/testbench": "3.8.*|4.*|5.*",
@@ -61,5 +61,7 @@
   },
   "scripts": {
     "test": "vendor/bin/phpunit"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
